@@ -1,0 +1,17 @@
+---
+layout: post
+title: technote
+---
+
+<h1> Technical Notes </h1>
+
+{% for post in paginator.posts %}
+<div>
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h3> 
+            {{ post.title }}
+        </h3>
+    </a>
+
+</div>
+{% endfor %}

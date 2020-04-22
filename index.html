@@ -7,14 +7,15 @@ title: technote
     <center> Technical Notes <center> 
 </h1>
 
-{% for post in site.posts %}
-<h3>test</h3>
-<div>
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h3> 
-            {{ post.title }}
-        </h3>
-    </a>
+<ul>
+    {% for post in site.posts %}
+        <li>
+            <a href="{{ post.url | prepend: site.baseurl }}">
+                <h3> 
+                    {{ post.title }}
+                </h3>
+            </a>
+        </li>
+    {% endfor %}
+</ul>
 
-</div>
-{% endfor %}

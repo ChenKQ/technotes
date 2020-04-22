@@ -1,7 +1,13 @@
- title: Technical Notes
+# Site title
+title: Technical Notes
+SEOTitle: technotes
+description: "some prime technical notes"
+
+# SNS settings
+
 #  email: your-email@example.com description: >- # this means to ignore newlines until "baseurl:"
   
- baseurl: "/technotes" # the subpath of your site, e.g. /blog
- url: "http://chenkq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/technotes" # the subpath of your site, e.g. /blog
+url: "http://chenkq.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 theme: jekyll-theme-cayman
